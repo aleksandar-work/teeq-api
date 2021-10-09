@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teeq-Admin", "Teeq-Admin\Teeq-Admin.csproj", "{6F81D0F2-4BBF-4BE9-AA64-C17AC2A51143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teeq-API", "Teeq-API\Teeq-API.csproj", "{E37A81C8-7D82-4124-B988-6CF8FB561BA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{620E0A2F-AE26-45EC-824B-C0A7B67E8076}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teeq-Data", "Teeq-Data\Teeq-Data.csproj", "{9645C126-F8AD-4CFF-BD74-F2B6380DE91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F81D0F2-4BBF-4BE9-AA64-C17AC2A51143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F81D0F2-4BBF-4BE9-AA64-C17AC2A51143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F81D0F2-4BBF-4BE9-AA64-C17AC2A51143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F81D0F2-4BBF-4BE9-AA64-C17AC2A51143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37A81C8-7D82-4124-B988-6CF8FB561BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37A81C8-7D82-4124-B988-6CF8FB561BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37A81C8-7D82-4124-B988-6CF8FB561BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37A81C8-7D82-4124-B988-6CF8FB561BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9645C126-F8AD-4CFF-BD74-F2B6380DE91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9645C126-F8AD-4CFF-BD74-F2B6380DE91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9645C126-F8AD-4CFF-BD74-F2B6380DE91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9645C126-F8AD-4CFF-BD74-F2B6380DE91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {945EBF3E-B0B2-4B96-9557-ECCECE9FA840}
+	EndGlobalSection
+EndGlobal

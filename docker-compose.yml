@@ -1,0 +1,13 @@
+﻿version: '3'
+
+services:
+    database:
+        container_name: "teeq-mssql"
+        build: ./docker/db
+        ports:
+            - "1433:1433"
+        volumes: 
+            - ./docker/db:/usr/db
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=Sevenhills1@
